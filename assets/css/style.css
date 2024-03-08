@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    background-color: transparent !important;
+}
+h1{ 
+    margin: 1em;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+
+section {
+    color: white;
+}
+.enviar{
+    margin-bottom: 3rem;
+}
+.button{
+    color: white;
+
+}
+footer p{
+    color: white;
+}
