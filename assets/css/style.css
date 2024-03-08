@@ -6,33 +6,26 @@
 body {
     background-color: black;
 }
-
-.header {
-    background-color: transparent !important;
+.navbar{
+    font-size: 1em;
 }
-h1{ 
+
+.carouselnav {
+    height: 100vh !important;
+}
+
+h1 {
     margin: 1em;
 }
-
-.navbar-brand {
-    color: white;
-}
-
-.nav-link {
-    color: white;
-}
-
 
 section {
     color: white;
 }
-.enviar{
+
+.enviar {
     margin-bottom: 3rem;
 }
-.button{
-    color: white;
 
-}
-footer p{
+footer p {
     color: white;
 }

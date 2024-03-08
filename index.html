@@ -18,49 +18,47 @@
 <body>
 
     <!--Navbar-->
-    <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="assets/img/viajes.svg" class="img-fluid" alt="Logo" width="30" height="24"
-                        class="d-inline-block align-text-top">
-                    Viajes Chile
-                </a>
-            </div>
-            <div class="navbar-nav">
-                <a class="nav-link" href="#">Inicio</a>
-                <a class="nav-link" href="#">Quienes Somos</a>
-                <a class="nav-link" href="#">Destacados</a>
-                <a class="nav-link" href="#">Contactos</a>
-            </div>
-            </div>
-            </div>
-        </nav>
-    </header>
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand text-white ps-5" href="#">
+                <img src="assets/img/viajes.svg" class="img-fluid" alt="Logo" width="30" height="24"
+                    class="d-inline-block align-text-top">
+                Viajes Chile
+            </a>
+        </div>
+        <div class="navbar-nav pe-5">
+            <a class="nav-link text-white" href="#">Inicio</a>
+            <a class="nav-link text-white" href="#">Quienes Somos</a>
+            <a class="nav-link text-white" href="#">Destacados</a>
+            <a class="nav-link text-white" href="#">Contactos</a>
+        </div>
+    </nav>
 
     <!--Header-->
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="assets/img/carousel1.jpg" class="img-fluid d-block w-100" alt="carousel">
+    <div class="content text-center">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner carouselnav">
+                <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="img-fluid d-block w-100" alt="carousel">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="img-fluid d-block w-100" alt="carouse2">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="img-fluid d-block w-100" alt="carouse3">
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="assets/img/carousel2.jpg" class="img-fluid d-block w-100" alt="carouse2">
-            </div>
-            <div class="carousel-item">
-                <img src="assets/img/carousel3.jpg" class="img-fluid d-block w-100" alt="carouse3">
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">siguiente</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
 
     <!--section Quienes somos-->
@@ -154,7 +152,7 @@
             <div class="col-12">
             </div>
             <div class=" enviar col-12">
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn text-bg-info">Enviar</button>
             </div>
         </form>
     </section>
@@ -179,6 +177,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
