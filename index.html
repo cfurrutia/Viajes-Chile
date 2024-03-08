@@ -17,35 +17,38 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="assets/img/viajes.svg" alt="Logo" width="30" height="24"
-                    class="d-inline-block align-text-top">
-                Viajes Chile
-            </a>
-        </div>
-        <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-            <a class="nav-link" href="#">Quienes Somos</a>
-            <a class="nav-link" href="#">Destacados</a>
-            <a class="nav-link" href="#">Contactos</a>
-        </div>
-        </div>
-        </div>
-    </nav>
+    <!--Navbar-->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/viajes.svg" class="img-fluid" alt="Logo" width="30" height="24"
+                        class="d-inline-block align-text-top">
+                    Viajes Chile
+                </a>
+            </div>
+            <div class="navbar-nav">
+                <a class="nav-link" href="#">Inicio</a>
+                <a class="nav-link" href="#">Quienes Somos</a>
+                <a class="nav-link" href="#">Destacados</a>
+                <a class="nav-link" href="#">Contactos</a>
+            </div>
+            </div>
+            </div>
+        </nav>
+    </header>
 
     <!--Header-->
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="carousel">
+                <img src="assets/img/carousel1.jpg" class="img-fluid d-block w-100" alt="carousel">
             </div>
             <div class="carousel-item">
-                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="carouse2">
+                <img src="assets/img/carousel2.jpg" class="img-fluid d-block w-100" alt="carouse2">
             </div>
             <div class="carousel-item">
-                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="carouse3">
+                <img src="assets/img/carousel3.jpg" class="img-fluid d-block w-100" alt="carouse3">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -59,6 +62,7 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+
     <!--section Quienes somos-->
     <section class="container text-center">
         <h1>¿QUIENES SOMOS?</h1>
@@ -87,7 +91,6 @@
     </section>
 
     <!--section Destacados-->
-
     <section class="container text-center">
         <h1>DESTACADOS</h1>
         <div class="container">
@@ -133,7 +136,6 @@
     </section>
 
     <!--section contacto-->
-
     <section class="container">
         <h1 class="text-center">CONTACTO</h1>
         <form class="row g-3">
@@ -149,18 +151,16 @@
                 <label for="inputmensaje" class="form-label">Mensaje</label>
                 <input type="text" class="form-control" id="inputmensaje">
             </div>
-
             <div class="col-12">
             </div>
-            <div class="col-12">
+            <div class=" enviar col-12">
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
         </form>
     </section>
 
     <!--footer-->
-
-    <footer class="bg-dark text-white">
+    <footer class="text-bg-info">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center">
