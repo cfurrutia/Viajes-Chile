@@ -5,8 +5,10 @@
 
 body {
     background-color: black;
+    font-family: "Raleway", sans-serif;
 }
-.navbar{
+
+.navbar {
     font-size: 1em;
 }
 
@@ -14,18 +16,47 @@ body {
     height: 100vh !important;
 }
 
-h1 {
-    margin: 1em;
+h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 section {
     color: white;
 }
 
-.enviar {
-    margin-bottom: 3rem;
+.fa-solid {
+    background-color: #24a0ed;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.destacados {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #24a0ed;
+    text-align: center;
+}
+
+.layout {
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #24a0ed;
 }
 
 footer p {
-    color: white;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.fa-brands {
+    margin-top: 1em;
 }

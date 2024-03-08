@@ -8,6 +8,11 @@
     <meta name="description" content="Descripcion de Viejes Chile" />
     <meta name="keywords" content="información, características, viajes." />
     <link rel="icon" href="assets/img/viajes.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
     <title>Prueba - Viajes Chile</title>
     <script src="https://kit.fontawesome.com/e9cde5fcde.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -63,26 +68,35 @@
 
     <!--section Quienes somos-->
     <section class="container text-center">
-        <h1>¿QUIENES SOMOS?</h1>
+        <h2>¿QUIENES SOMOS?</h2>
         <div class="container text-center">
             <div class="row align-items-end">
-                <div class="col">
-                    <i class="fa-solid fa-plane"></i>
-                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, quis. Doloremque reiciendis
-                        amet doloribus suscipit quia perspiciatis itaque quam eligendi aliquid! Quod dignissimos
-                        quibusdam repellendus ducimus repudiandae porro, doloribus nesciunt.</P>
+                <div class="col-md-4">
+                    <div class="row">
+                        <i class="fa-solid fa-plane"></i>
+                        <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, quis. Doloremque
+                            reiciendis
+                            amet doloribus suscipit quia perspiciatis itaque quam eligendi aliquid! Quod dignissimos
+                            quibusdam repellendus ducimus repudiandae porro, doloribus nesciunt.</P>
+                    </div>
                 </div>
-                <div class="col">
-                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, quis. Doloremque reiciendis
-                        amet doloribus suscipit quia perspiciatis itaque quam eligendi aliquid! Quod dignissimos
-                        quibusdam repellendus ducimus repudiandae porro, doloribus nesciunt.</P>
-                    <i class="fa-solid fa-mountain"></i>
+                <div class="col-md-4">
+                    <div class="row">
+                        <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, quis. Doloremque
+                            reiciendis
+                            amet doloribus suscipit quia perspiciatis itaque quam eligendi aliquid! Quod dignissimos
+                            quibusdam repellendus ducimus repudiandae porro, doloribus nesciunt.</P>
+                        <i class="fa-solid fa-mountain"></i>
+                    </div>
                 </div>
-                <div class="col">
-                    <i class="fa-solid fa-route"></i>
-                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, quis. Doloremque reiciendis
-                        amet doloribus suscipit quia perspiciatis itaque quam eligendi aliquid! Quod dignissimos
-                        quibusdam repellendus ducimus repudiandae porro, doloribus nesciunt.</P>
+                <div class="col-md-4">
+                    <div class="row">
+                        <i class="fa-solid fa-route"></i>
+                        <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, quis. Doloremque
+                            reiciendis
+                            amet doloribus suscipit quia perspiciatis itaque quam eligendi aliquid! Quod dignissimos
+                            quibusdam repellendus ducimus repudiandae porro, doloribus nesciunt.</P>
+                    </div>
                 </div>
             </div>
         </div>
@@ -90,8 +104,8 @@
 
     <!--section Destacados-->
     <section class="container text-center">
-        <h1>DESTACADOS</h1>
-        <div class="container">
+        <h2>DESTACADOS</h2>
+        <div class="destacados container">
             <div class="row">
                 <div class="col-md-3">
                     <div class="card">
@@ -106,7 +120,7 @@
                     <div class="card">
                         <img class="card-img-top img-fluid" src="assets/img/card2.jpg" alt="card2">
                         <div class="card-body">
-                            <h5 class="card-title">Título 1</h5>
+                            <h5 class="card-title">Título 2</h5>
                             <p class="card-text">Contenido de la tarjeta 1.</p>
                         </div>
                     </div>
@@ -115,7 +129,7 @@
                     <div class="card">
                         <img class="card-img-top img-fluid" src="assets/img/card3.jpg" alt="card3">
                         <div class="card-body">
-                            <h5 class="card-title">Título 1</h5>
+                            <h5 class="card-title">Título 3</h5>
                             <p class="card-text">Contenido de la tarjeta 1.</p>
                         </div>
                     </div>
@@ -124,7 +138,7 @@
                     <div class="card">
                         <img class="card-img-top img-fluid" src="assets/img/card4.jpg" alt="card4">
                         <div class="card-body">
-                            <h5 class="card-title">Título 1</h5>
+                            <h5 class="card-title">Título 4</h5>
                             <p class="card-text">Contenido de la tarjeta 1.</p>
                         </div>
                     </div>
@@ -134,41 +148,39 @@
     </section>
 
     <!--section contacto-->
-    <section class="container">
-        <h1 class="text-center">CONTACTO</h1>
+    <section class="container layout">
+        <h2 class="text-center">CONTACTO</h2>
         <form class="row g-3">
             <div class="col-md-12">
                 <label for="inputnombre" class="form-label">Nombre</label>
                 <input type="text" class="form-control" id="inputnombre">
             </div>
-            <div class="col-12">
+            <div class="col-md-12">
                 <label for="inputasunto" class="form-label">Asunto</label>
                 <input type="text" class="form-control" id="inputasunto">
             </div>
-            <div class="col-12">
+            <div class="col-md12">
                 <label for="inputmensaje" class="form-label">Mensaje</label>
                 <input type="text" class="form-control" id="inputmensaje">
             </div>
-            <div class="col-12">
-            </div>
-            <div class=" enviar col-12">
-                <button type="submit" class="btn text-bg-info">Enviar</button>
+            <div class="col-md12">
+                <button type="submit" class="btn btn-info text-white">Enviar</button>
             </div>
         </form>
     </section>
 
     <!--footer-->
-    <footer class="text-bg-info">
+    <footer class="text-white">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center">
                     <p>VIAJES CHILE</p>
                 </div>
                 <div class="col-md-6 text-center">
-                    <a href="#"><i class="fa-brands fa-github"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-github text-white"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin text-white"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter text-white"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-facebook text-white"></i></a>
                 </div>
             </div>
         </div>
