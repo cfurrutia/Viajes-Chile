@@ -17,6 +17,9 @@ body {
     width: 30px;
     height: 24px;
 }
+.navbar-item{
+    white-space: nowrap;
+}
 
 h2 {
     margin-top: 2em;
