@@ -43,9 +43,13 @@ section {
     height: 180px;
 }
 
-
-.card h5,
-p {
+.card-title {
+    height: 50px;
+    color: white;
+    text-align: left;
+}
+.card-text{
+    height: 210px;
     color: white;
     text-align: left;
 }
