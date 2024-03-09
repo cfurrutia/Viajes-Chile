@@ -29,6 +29,9 @@ h2 {
 section {
     color: white;
 }
+section p{
+    text-align: left;
+}
 
 .fa-solid {
     background-color: #0DCAF0;
