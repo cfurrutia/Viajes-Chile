@@ -33,15 +33,9 @@ section p{
     text-align: left;
 }
 
-.fa-solid {
-    background-color: #0DCAF0;
-    padding-top: 8px;
-    padding-bottom: 8px;
-
-}
-
 .card {
-    background-color: #0DCAF0;
+
+    background-color: #0a79ad;
     text-align: center;
 }
 
@@ -64,8 +58,18 @@ section p{
     margin-bottom: 1rem;
 }
 
+.fa-brands {
+    margin-top: 1em;
+}
+
+.fa-solid {
+    background-color: #0a79ad;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
 footer {
-    background-color: #0DCAF0;
+    background-color: #0a79ad;
 }
 
 footer p {
@@ -73,6 +77,3 @@ footer p {
     text-align: center;
 }
 
-.fa-brands {
-    margin-top: 1em;
-}
